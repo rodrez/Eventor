@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Eventor</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="not_yet_registered_signup_now">Not yet registered? SignUp Now</string>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="login">Login</string>
+    <string name="add_event">New Event</string>
+    <string name="delete">DELETE</string>
+    <string name="edit">EDIT</string>
+</resources>

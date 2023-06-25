@@ -1,0 +1,42 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/fabAdd" />
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/fabAdd"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="16dp"
+        android:src="@drawable/ic_add"
+        app:backgroundTint="@color/purple"
+        app:elevation="6dp"
+        app:maxImageSize="48dp"
+        app:fabSize="normal"
+        app:rippleColor="@android:color/holo_purple"
+        android:contentDescription="TODO" />
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/permissionButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@id/fabAdd"
+        android:layout_toStartOf="@id/fabAdd"
+        android:layout_marginEnd="16dp"
+        android:src="@drawable/ic_message"
+        app:backgroundTint="@color/material_dynamic_primary99"
+        app:elevation="6dp"
+        app:maxImageSize="48dp"
+        app:fabSize="normal"
+        app:rippleColor="@android:color/white"
+        android:contentDescription="TODO" />
+</RelativeLayout>
